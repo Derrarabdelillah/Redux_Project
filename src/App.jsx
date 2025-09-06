@@ -45,10 +45,10 @@ const App = () => {
       </h1>
 
       <div className="flex flex-col gap-2 justify-center items-center">
-        <button onClick={handleSum} className="bg-blue-500 text-white px-4 py-2 rounded w-50">Sum</button>
-        <button onClick={handleSubtract} className="bg-red-500 text-white px-4 py-2 rounded w-50">Subtract</button>
-        <button onClick={handleMultiply} className="bg-green-500 text-white px-4 py-2 rounded w-50">Multiply</button>
-        <button onClick={handleDivide} className="bg-black text-white px-4 py-2 rounded w-50">Divide</button>
+        <button onClick={handleSum} className="cursor-pointer bg-blue-500 text-white px-4 py-2 rounded w-50">Sum</button>
+        <button onClick={handleSubtract} className="cursor-pointer bg-red-500 text-white px-4 py-2 rounded w-50">Subtract</button>
+        <button onClick={handleMultiply} className="cursor-pointer bg-green-500 text-white px-4 py-2 rounded w-50">Multiply</button>
+        <button onClick={handleDivide} className="cursor-pointer bg-black text-white px-4 py-2 rounded w-50">Divide</button>
       </div>
     </div>
   )
